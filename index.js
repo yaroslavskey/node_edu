@@ -5,11 +5,11 @@ const app = express();
 
 
 
-app.get('\hello', (req, res) => {
+app.get('/hello', (req, res) => {
     res.send('Привет');
 });
 
-app.post('\hello', (req, res) => {
+app.post('/hello', (req, res) => {
     res.send('Привет');
 });
 
